@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp">
+        <ImageView
+            android:id="@+id/nav_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:id="@+id/user_fio"
+    android:layout_marginTop="60dp"
+    android:paddingTop="8dp"
+    android:textSize="20dp"
+    android:text="Никнейм"
+    android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_email"
+        android:paddingTop="5dp"
+        android:textSize="13dp"
+        android:text="Почта"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_numberPhone"
+        android:layout_marginTop="105dp"
+        android:paddingTop="8dp"
+        android:textSize="13dp"
+        android:text="Попыток: "
+        android:textStyle="bold"/>
+
+</RelativeLayout>

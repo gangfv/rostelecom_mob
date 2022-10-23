@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "673491456073",
+    "firebase_url": "https://workhelper-c68eb-default-rtdb.firebaseio.com",
+    "project_id": "workhelper-c68eb",
+    "storage_bucket": "workhelper-c68eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673491456073:android:623b39aed8fe28b268af98",
+        "android_client_info": {
+          "package_name": "com.fv.workhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673491456073-i7h3vj635adueqvphqnkn479006f42cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAos8OG4dt_TUCgoUHTUzNj72Tj0kBSJyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673491456073-i7h3vj635adueqvphqnkn479006f42cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
